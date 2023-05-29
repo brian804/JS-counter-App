@@ -1,0 +1,49 @@
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh; /* incase the BG image repeats, use 100vh */
+}
+
+.container {
+    background: #ffffff;
+    max-width: 50%;
+    margin: auto;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 10px 0 10px 0;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0 0 20px 0;
+}
+
+button {
+    border: 1px solid #000000;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #8b0000;
+}
+
+#save-btn {
+    background: #006400;
+}
+
+#save-el {
+    font-weight: bold;
+}
